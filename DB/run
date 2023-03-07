@@ -1,0 +1,2 @@
+docker pull mysql
+docker run --name mi-mysql -e MYSQL_ROOT_PASSWORD=contrasena -p 3306:3306 -d mysql
